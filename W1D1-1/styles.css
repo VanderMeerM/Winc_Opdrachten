@@ -1,0 +1,69 @@
+
+.grid {
+    display: grid;
+    grid-template: 20px 10px 40px 30px / repeat (4, 80px);
+   
+   /* grid-template-areas: "naam foto"
+                        "beschrijving"
+                         "tekst"
+                          "knop"; */
+    padding: 10px;
+    width:310px;
+    height:170px;
+    border-radius: 5%;
+    border: lightgray solid 2px;
+
+}
+
+.naam {
+    font-family: 'Lato', sans-serif;
+    grid-area: 1 / 1 / 1 / 4;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    }
+
+.foto {
+    grid-area: 1 / 4 / 3 / 4;
+          
+}
+
+.beschrijving {
+    font-family: 'Lato', sans-serif;
+    grid-area: 2 / 1 / 2 / 4;
+    font-size: 15px;
+    color: lightgray;
+}
+
+.tekst {
+   grid-area: 3 / 1 / 3 / 5;
+   margin-top:10px;
+   font-family: 'Lato', sans-serif;
+  
+    
+}
+
+.greenbutton {
+    grid-area: 4 / 1 / 4 / 2;
+    margin-top: 10px;
+    padding: 10px 50px;
+    border: #58E000 solid 2px;
+    border-radius: 8%;
+    background-color: white;
+    font-weight: bold;
+    color: #58E000;
+    text-align: center;
+        
+}
+
+.redbutton {
+    grid-area: 4 / 3 / 4 / 5;
+    margin-top: 10px;
+    padding: 10px 50px;
+    border: red solid 2px;
+    border-radius: 8%;
+    background-color: white;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}

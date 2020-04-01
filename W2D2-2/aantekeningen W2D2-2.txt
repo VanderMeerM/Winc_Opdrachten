@@ -1,0 +1,54 @@
+
+Color/Contrast, Whitespace, Visual Hierarchy, Complexity vs. Simplicity, Consistency, Scale.
+
+
+hoe filtering tussen recepten met/zonder gluten? 
+knoppen bijvoorbeeld? 
+scroll, dropdown-menu's? 
+
+items/algehele verdeling (in de vorm van menu's? hover-effecten?) 
+welke kleuren, font?  
+logo, huisstijl?
+
+voorbeeld-sites (evt. van concurrenten)?
+
+achtergrond? bepaalde foto's? 
+
+sortering vd blogs (meest recente?) 
+
+wat vindt ze zelf goed 
+wat is uw doelgroep?
+
+webshop 
+link naar kookboek 
+
+aparte website 
+babette 
+kookboeken, kookprogramma's (link hiernaar), 
+gluten website als nieuw product 
+doelgroep: 
+
+recepten zonder gluten (visueel duidelijk, geen twijfel) 
+navigeren 
+cool 
+hoekjes rond met gluten 
+culy.nl veel foto's (met vermelding van fotograaf) 
+geen filters, sortering op kooktijd 
+ 
+kleuren: foto oranje (zonder gluten) zoals op site 
+lichtblauw (met gluten) 
+ook visueel verschil voor kleurenblinden  
+
+suf imago van gluten weg 
+modern font, recepten met video 
+
+responsive (iPad of telefoon) 
+
+
+
+
+
+
+
+
+

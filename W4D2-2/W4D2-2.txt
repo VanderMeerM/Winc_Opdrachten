@@ -1,0 +1,28 @@
+
+Opdracht A
+
+Ik vermoed (vooraf) dat 'undefined' het antwoord zou zijn. 
+Dat was ook zo aangezien de getBrand een functie binnen het object Car is en hierdoor niet kan worden benaderd. 
+
+
+Opdracht B 
+
+Met .bind zal 'Nissan' als antwoord volgen. Nu kan brand binnen de scope van het object (Car) namelijk wel worden benaderd. 
+
+
+Opdracht C 
+
+getBrand betreft weer een functie binnen het object Car en kan alleen binnen de functie zelf worden aangesproken. 
+This refereert in dit geval naar het global object 'brand' die niet is gedefinieerd. 
+
+ 
+Opdracht D
+
+Net als bij A volgt ook hier weer 'undefined' aangezien .this refereert naar een global object dat niet is gedefinieerd. 
+
+Bij het tweede voorbeeld is .this apart gedefinieerd in de variabele self. Dan heb je wel toegang tot (in dit geval) brand. 
+
+
+
+
+

@@ -1,0 +1,43 @@
+
+a:hover {
+    background-color: lightblue;
+    font-weight: bold;
+}
+
+a:active {
+    color: red;
+    font-style: italic;
+}
+
+a:visited {
+    color:yellow;
+}
+
+input:focus {
+    color: green;
+    font-size: 20px;
+    
+}
+
+nav ul li {
+    line-height: 25px;
+    width: 30%;
+    background-color: darkblue;
+}
+
+nav ul li:first-child {
+    list-style-type: none;
+}
+
+.currentPage {
+background-color: grey;
+}
+
+nav ul li:hover {
+    background-color: lightblue;
+}
+
+nav ul li a input:focus {
+    border-color: aqua;
+}
+

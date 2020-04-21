@@ -25,8 +25,9 @@ nav ul li {
     background-color: darkblue;
 }
 
-nav ul li:first-child {
+li:nth-child(1) {
     list-style-type: none;
+      
 }
 
 .currentPage {

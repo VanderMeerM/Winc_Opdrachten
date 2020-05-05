@@ -9,7 +9,7 @@ oplossing: in app stond parameter verkeerd gespeld, waardoor die niet aan GameOv
 
 Bug 2 
 
-Heeft Robbert voorgedaan. In this.state wordt ook een element niet goed doorgegeven vanwege een typo (zie screenshot). 
+Heeft Robbert voorgedaan. In this.state wordt ook een element niet goed doorgegeven vanwege een typo (guesedletters, zie screenshot). 
 
 
 Bug 3 

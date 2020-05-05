@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
     <html>
       <head>
@@ -47,3 +48,58 @@
         async defer></script>
       </body>
     </html>
+=======
+<!DOCTYPE html>
+    <html>
+      <head>
+        <title>Simple Map</title>
+        <meta name="viewport" content="initial-scale=1.0">
+        <meta charset="utf-8">
+        <style>
+          /* Always set the map height explicitly to define the size of the div
+           * element that contains the map. */
+          #map {
+            height: 100%;
+          }
+          /* Optional: Makes the sample page fill the window. */
+          html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+          }
+        </style>
+      </head>
+      <body>
+        <div id="map"></div>
+        <script>
+          var map;
+
+                    
+         function initMap() {
+              const WinHQ = {lat: 52.3783544, lng: 4.8525096};
+              const marjolein = {lat: -25.344, lng: 131.036};
+            const marcel = {lat: 51.8631286, lng: 5.8648398};
+            map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 17, center: WinHQ}); 
+              const marker = new google.maps.Marker({position: WinHQ, map: map, 
+                icon: "winc-round.png"});
+              
+            }
+/*
+            function createMarker(personCoordinates){
+            const marker = new google.maps.Marker({position: personCoordinates, map: map});
+            createMarker(marjolein)
+            */
+
+                       
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=<apikey>&callback=initMap"
+
+        async defer></script>
+      </body>
+<<<<<<< HEAD
+    </html>
+=======
+    </html>
+>>>>>>> 10016a39c3930e163ef19db27f7e1096857c010e
+>>>>>>> c93857c7748c11c2f864e046b35fac863aa333de

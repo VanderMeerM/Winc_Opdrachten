@@ -31,3 +31,9 @@ Het euvel zit hem in de split-functie waarbij nu ook een lege string in de betre
 Bug 5 
 
 In app.js regel 30 stond als if-statement dat de lengte van de array, opgebouwd met de functie getWrongLetters groter moet zijn dan de variabele maxGuesses (=5). Na aanpassing gelijk aan (==) werkt die goed. 
+
+Bug 6 
+
+Je kunt dezelfde letter meerdere keren raden. 
+Weet niet zo goed wat ermee wordt bedoeld. 
+In versie 5 wordt hetzelfde gedrag vertoond als een goede letter meerdere keren wordt ingevoerd(er wordt niets afgetrokken en er komt geen letter bij) 

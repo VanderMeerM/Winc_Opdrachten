@@ -1,14 +1,19 @@
 import React from 'react'; 
 import List from "./List.js"
+import InputField from "./InputField"
 
 
- function ShoppingCart(props) {
+ function ShoppingCart({addGrocery, shoppingListItems, addNewShoppingItem}) {
         return(
         <div>
-            <button className="button-primary" onClick={props.handleClickEmptyCart}>
-        Leeg de winkelmand 
-        </button>
-        <List items={props.props} click={props.onClick}/>
+            
+        <InputField click={addNewShoppingItem} />
+
+        <List 
+        items={shoppingListItems} 
+        addGrocery = {addGrocery} />
+       
+         
         </div>
     )}
 

@@ -2,14 +2,21 @@ import React from 'react';
 import List from "./List.js"
 
 
-function GroceryList(items) {
+
+ 
+function GroceryList({groceryItems, handleClickEmptyCart}) {
+   
   
 return(
     <div>
-    <List items={items.groceryItems} 
-    click={items.handleClickGroceryItem} 
-    
-    /> 
+    <button className="button-primary" onClick={handleClickEmptyCart}>
+        Leeg de winkelmand 
+        </button> 
+    <List className="groceries" 
+    items={groceryItems} 
+        
+     /> 
+   
     </div>
 )
 

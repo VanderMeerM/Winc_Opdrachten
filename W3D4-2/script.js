@@ -40,18 +40,15 @@
                 const res =  await fetch(`https://tronalddump.io/search/quote/?tag=${data.tags}`, { method: 'GET' });
                 const quotes = await res.json();
                
-                const currentQuote = document.getElementById('quote').innerHTML;
-               
+              const currentQuote = document.getElementById('quote').innerHTML;
                let foundQuote = quotes._embedded.quotes.filter(p => 
                p.value !== currentQuote).map(x =>  
                 {
-               const newUl = document.createElement("ul");
-               const newLi = document.createElement("li");
+               const newP = document.createElement("p");
                const line = document.createElement("hr");
-               newLi.innerHTML = x.value;
-               otherQuotes.appendChild(newUl);
-               newUl.appendChild(newLi);
-               newLi.appendChild(line);
+               newP.innerHTML = x.value;
+               otherQuotes.appendChild(newP);
+               newP.appendChild(line);
                }
               ) 
             }   

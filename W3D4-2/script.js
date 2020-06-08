@@ -50,7 +50,7 @@ async function getTrumpQuote() {
         }
 
         let restQuotes = quotes._embedded.quotes.filter(p => p.value !== currentQuote);
-        if (restQuotes.length < 1) { console.log('Geen resterend aantal quotes') };
+        if (restQuotes.length < 1) { console.log('Geen quotes meer voor huidige tag') };
 
         let foundQuote = quotes._embedded.quotes.filter(p =>
           p.value !== currentQuote).map(x => {
